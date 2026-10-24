@@ -1,0 +1,13 @@
+com.hotmart.tv
+com.spotify.tv.android
+com.wbd.stream
+com.disney.starplus
+tv.twitch.android.app
+com.globo.globotv
+com.cbs.ca
+tv.pluto.android
+com.nathnetwork.xciptv
+com.apple.atve.androidtv.appletv
+com.valvesoftware.steamlink
+org.jellyfin.androidtv
+com.disney.disneyplus
