@@ -49,3 +49,11 @@ Fonte: README do projeto, lido em 24/10/2026 (MIT, 4,1 mil estrelas, 288 commits
 3. Gerar o APK sem mudanças e instalar na TV com `disable_assistant=true`, mais a desativação do Chromecast/T-Cast. Medir a RAM antes e depois.
 4. O Sr. Hao usa alguns dias e lista o que não agrada.
 5. Os agentes personalizam a interface e acrescentam o que for dele (exemplo: linha "Continuar assistindo" do Jellyfin).
+
+## 24/10/2026: memória das imagens da tela inicial
+
+| Decisão | Detalhe |
+|---|---|
+| **Manter como está** | A tela inicial guarda prontas as imagens das 6 abas (até 19 conjuntos, ~75 MB), para a troca de aba ser instantânea. Home ~234 MB, TV com ~715 MB livres. |
+| Descartado: baixar imagens menores | Não economiza: os cartões já ficam na memória no tamanho exato da tela (1092×464 e 336×464). Abaixo disso, só perderia qualidade. |
+| Guardado para depois | Manter só a aba atual + Início (~60 MB a menos, estimativa; cartões cinzas por ~0,5 s ao trocar de aba). Aplicar se algum app começar a travar ou fechar por falta de memória. |
