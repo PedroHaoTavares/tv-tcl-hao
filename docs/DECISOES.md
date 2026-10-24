@@ -11,6 +11,15 @@
 | Quem desenvolve | Os agentes (Claude Code, Gemini, Codex). O Sr. Hao revisa e aprova. |
 | Base de partida | **[free-my-tv](https://github.com/simbasjungles/free-my-tv)** (licença MIT), indicado pelo Sr. Hao. A interface dele ainda não agrada 100% e será personalizada. |
 
+## 24/10/2026: sugestões do TMDB saem, Jellyfin entra
+
+| Decisão | Detalhe |
+|---|---|
+| Base | free-my-tv **confirmado** pelo Sr. Hao. Fork em `PedroHaoTavares/free-my-tv`, escolhido por mim (Claude Code) com a autonomia dada no item 5. |
+| TMDB | **Não usar.** As sugestões de "em alta" não interessam. |
+| Jellyfin | **Linha "Continuar assistindo" do Jellyfin** do homeserver na tela inicial, no lugar das sugestões do TMDB. |
+| Ambiente | Ferramentas de build instaladas no PC (ver [AMBIENTE.md](AMBIENTE.md)). |
+
 ## Por que o free-my-tv substitui o "Kotlin + Compose do zero"
 
 Fonte: README do projeto, lido em 24/10/2026 (MIT, 4,1 mil estrelas, 288 commits).

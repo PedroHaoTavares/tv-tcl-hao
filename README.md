@@ -4,7 +4,7 @@ Otimização e interface personalizada para uma TV TCL com Google TV (codinome `
 
 ## Status
 
-**Fase de análise.** Nada foi alterado na TV ainda.
+**Ambiente de build pronto.** Launcher: fork do [free-my-tv](https://github.com/PedroHaoTavares/free-my-tv). Nada foi alterado na TV ainda.
 
 ## Documentação
 
@@ -12,6 +12,7 @@ Otimização e interface personalizada para uma TV TCL com Google TV (codinome `
 |---|---|
 | [`docs/ANALISE.md`](docs/ANALISE.md) | **Comece aqui.** O que dá para fazer, riscos, condições e decisões pendentes. |
 | [`docs/DECISOES.md`](docs/DECISOES.md) | Decisões tomadas e plano do launcher (base: free-my-tv). |
+| [`docs/AMBIENTE.md`](docs/AMBIENTE.md) | Ferramentas no PC, build do launcher e pré-requisitos da TV. |
 | [`docs/dispositivo.md`](docs/dispositivo.md) | Perfil da TV coletado via ADB. |
 | [`docs/pesquisa/otimizacoes.md`](docs/pesquisa/otimizacoes.md) | Debloat, desempenho, launcher, root: pesquisa completa com fontes. |
 | [`docs/pesquisa/interface-personalizada.md`](docs/pesquisa/interface-personalizada.md) | Caminhos para uma interface própria, com fontes. |
